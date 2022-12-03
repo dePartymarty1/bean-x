@@ -1,0 +1,108 @@
+#menu {
+    position: relative;
+}
+
+.menu {
+    color: white;
+}
+
+.menu-overlay {
+    display: flex;
+    border: 2px solid orangered;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,.60);
+    margin-bottom: 20px;
+}
+
+.container.menu {
+    padding: 6rem 0 6rem;
+}
+
+.menu-text {
+    font-size: 35px;
+    font-weight: 250;
+    color: var(--color-white); 
+}
+
+.menu h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+    padding-top: 30px;
+    
+}
+.menu-text span {
+    font-weight: 600;
+    color: orangered;
+}
+
+.menu h1 span:nth-child(1) {
+    font-weight: 400;
+    color: orangered;
+    border-radius: 70%;
+    border-color: aliceblue;
+    font-size: 1.4rem; 
+    /* gets 2nd element of span  */
+}
+
+.menu h1 span {
+    display: block;
+    /* puts each of the spans on own line */
+}
+
+.menu-top {
+    margin: 3rem 0 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu-mask {
+    padding-top: 2rem;;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.menu-left {
+    position: relative;
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+
+.menu-right {
+    position: relative;
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 769px) {
+    .header h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header {
+      flex-direction: column;
+    }
+    .menu-left, .menu-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;   
+    }
+
+/* ADD MORE POTENTIALLY */
+  }

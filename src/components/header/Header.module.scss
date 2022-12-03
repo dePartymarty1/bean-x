@@ -1,0 +1,148 @@
+$color_1: var(--color-white);
+$color_2: orangered;
+$background-color_1: var(--dark-blue);
+$background-color_2: var(--color-white);
+
+/* H1 AND P STYLES */
+/* LINES */
+/* BUTTONS  */
+/* .header-left, .header-right */
+/* .header-banner {
+    margin-top: -20px;
+    width: 100%;
+    background-image: url(../../assets/barb_bg.png);
+} */
+header {
+	position: relative;
+	width: 100%;
+	background-color: $background-color_1;
+}
+.banner {
+	padding-bottom: 5rem;
+	margin: auto;
+}
+
+.header {
+	p {
+		color: white;
+		font-size: 1.6rem;
+	}
+	h1 {
+		line-height: 1.4;
+		text-align: left;
+		color: $color_1;
+		position: relative;
+		font-size: 2.4rem;
+		font-weight: 800;
+		text-transform: uppercase;
+		padding-bottom: 1rem;
+		padding-top: 30px;
+		span {
+			display: block;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 1px;
+			background-color: $background-color_2;
+		}
+	}
+}
+
+// p {
+// 	line-height: 1.4;
+// 	text-align: left;
+// 	color: $color_1;
+// 	position: relative;
+// }
+h1 {
+	span {
+		&:nth-child(2) {
+			font-weight: 200;
+		}
+	}
+}
+.cta {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.top {
+	padding-left:2rem;
+	padding-right: 2rem;
+}
+.above {
+	// padding-left:2rem;
+	// padding-right: 2rem;
+	h1 {
+		color: $color_2;
+	}
+	p {
+		color: $color_1;
+		padding-bottom: 50px;
+	}
+	a:link {
+		color: orangered;
+	}
+	span {
+		color: orangered;
+	}
+}
+
+.below {
+	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding-bottom: 300px;
+	img {
+		display: block;
+		width: 50%;
+		height: auto;
+		margin: -11.875% 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.header {
+		h1 {
+			font-size: 2rem;
+		}
+	}
+}
+@media screen and (max-width: 733px) {
+	.header {
+		flex-direction: column;
+		h1 {
+			&::after {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+	.top {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+		margin-right: 2rem;
+	}
+	.header-cta {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+
+}

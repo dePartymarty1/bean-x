@@ -1,0 +1,13 @@
+//App.js
+      // <main>
+      //   <Navbar />
+      //   {/* <Navbar setShow={setShow} size={cart.length} /> */}
+      //   {/* {show ? (<Menu clicker={clicker} /> ):(<Cart cart={cart} setCart={setCart} handleChange={handleChange} />)} */}
+      //   <header className="header-bg">
+      //     <Routes>
+      //       <Route path="/" element={<Header />} />
+      //       <Route path="/movies" element={<Movies />} />
+      //       <Route path="/menu" element={<Menu />} />        
+      //     </Routes>
+      //   </header>
+      // </main>

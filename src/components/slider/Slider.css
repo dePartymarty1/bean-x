@@ -1,0 +1,36 @@
+
+.slider {
+    position: relative;
+    display: flex;
+    /* top: -493px; */
+    justify-content: center;
+    align-items: center;
+    /* z-index: 2; */
+    /* padding: 1.6rem 0 4rem; */
+
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    /* max-width: 800px; */
+    /* max-height: 444px; */
+    /* background-size: contain; */
+    padding: top 10px;
+    border-radius: 10px;
+    justify-content: center;
+} 
+
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+    margin-top: 10px;
+}
+

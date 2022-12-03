@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.cards {
+    width: 250px;
+    padding: 20px;
+}
+.cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+    /* cursor: pointer; */
+}
+
+.image_box img {
+    width: 80px;
+    height: 80px;
+}
+.details p:nth-child(1) {
+    font-weight: bold;
+}
+.details p:nth-child(2) {
+    color: white;
+    font-weight: 200;
+}
+.details p:nth-child(3) {
+    /* font-weight: bolx */
+    color: white;
+    font-weight: 200;
+}
+.details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: orangered;
+    outline: none;
+    cursor: pointer;
+}

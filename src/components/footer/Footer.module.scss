@@ -1,0 +1,14 @@
+.footer {
+    // background-color: var(--dark-blue);
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    p {
+      color: #fff;
+    }
+  }

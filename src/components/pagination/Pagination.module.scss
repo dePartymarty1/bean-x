@@ -1,0 +1,38 @@
+.pagination {
+    color: white;
+    list-style: none;
+    margin-top: 1rem;
+    // padding-top: 1rem;
+    // border-top: 3px solid black;
+  
+    display: flex;
+    justify-content: right;
+    // align-items: center;
+  
+    .hidden {
+      display: none;
+    }
+  
+    li {
+      font-size: 1.4rem;
+      border: 1px solid #ccc;
+      min-width: 3.5rem;
+      height: 3rem;
+      padding: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    p {
+      margin-left: 1rem;
+      .page {
+        color: var(--color-danger);
+      }
+    }
+  }
+  .active {
+    background-color: var(--color-danger);
+    color: #fff;
+  }
+  

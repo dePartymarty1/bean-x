@@ -1,0 +1,145 @@
+.grid {
+    width: 16rem;
+    background-color: #fff;
+    margin: 5px;
+    height: 24rem;
+    position: relative;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    .img {
+      padding: 1rem;
+      // width: 100%;
+      width: 200px;
+      max-height: 75%;
+      // max-height: 200px;
+      overflow: hidden;
+      // border-bottom: 2px solid #eee;
+      img {
+        width: 100%;
+        // max-width: 100%;
+        // height: 100%;
+        height: 180px;
+        cursor: pointer;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid #eee;
+      }
+      .hoverText {
+        // font-size: 20px;
+        color:white;
+        border: 2px solid orangered;
+        background: rgba(0,0,0, 1);
+        z-index: 99;
+        opacity: 1;
+        position: sticky;
+        // position: absolute;
+      }
+    }
+    .content {
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      // max-width: 400px;
+      width: 100%;
+  
+      .details {
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        padding: 0 1rem;
+        h4 {
+          font-weight: 400;
+          font-size: 1.8rem;
+        }
+        h6 {
+            font-weight: 500;
+            color: orangered;
+            font-size: 1.4rem;
+        }
+        p {
+          font-weight: 500;
+          color: black;
+        }
+      }
+      button {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  
+  .list {
+    font-size: 1.4rem;
+    background-color: white;
+    width: 100%;
+    // height: 25rem;
+    height: 400px;
+    max-height: 32rem;
+    display: flex;
+    // background-color: #fff;
+    margin: 1rem 0;
+    .img {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      width: 100%;
+      // max-width: 85%;
+      max-width: 400px;
+      height: 100%;
+      overflow: hidden;
+      border-right: 2px solid #eee;
+      // border: 1px solid red;
+      img {
+        width: 100%;
+        // height: 100%;
+        max-height: 100%;
+        cursor: pointer;
+      }
+      .hoverText {
+        // font-size: 20px;
+        color:white;
+        border: 2px solid orangered;
+        background: rgba(0,0,0, 1);
+        z-index: 99;
+        opacity: 1;
+        position: absolute;
+        // position: absolute;
+      }
+    }
+  
+    .content {
+      position: relative;
+      padding: 1rem;
+      width: 65%;
+      .details {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        h4 {
+            font-weight: 300;
+            font-size: 1.2rem;
+          }
+          h6 {
+              font-weight: 500;
+            //   color: orangered;
+              font-size: 1.4rem;
+          }
+          p {
+            font-weight: 400;
+            color: black;
+          }
+          h2 {
+            font-size: 2.5rem;
+            font-weight: 500;
+
+          }
+      }
+      button {
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+      }
+    }
+  }
+  
