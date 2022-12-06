@@ -26,6 +26,8 @@ const initialState = {
   category: "",
   desc: "",
   info:"",
+  time:"",
+  time1:"",
 };
 
 
@@ -90,6 +92,8 @@ const AddMovies = () => {
         category: movie.category,
         desc: movie.desc,
         info: movie.info,
+        time: movie.time,
+        time1: movie.time1,
         createdAt: Timestamp.now().toDate(),
       });
       setIsLoading(false);
@@ -206,6 +210,23 @@ const AddMovies = () => {
                 placeholder="Movie Desc" 
                 required name="desc" 
                 value={movie.desc} 
+                onChange={(e) => handleInputChange(e)} 
+              />
+                           {/* Movie Time  */}
+             <label>Movie Time: </label>
+              <input 
+                type="text" 
+                placeholder="Movie Time" 
+                required name="time" 
+                value={movie.time} 
+                onChange={(e) => handleInputChange(e)} 
+              />
+                           <label>Movie Time Option1: </label>
+              <input 
+                type="text" 
+                placeholder="Movie Time Opton 1" 
+                required name="time1" 
+                value={movie.time1} 
                 onChange={(e) => handleInputChange(e)} 
               />
               <button className="--btn --btn-primary">

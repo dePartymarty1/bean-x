@@ -43,11 +43,14 @@ const ViewMovies = () => {
             <th>Category</th>
             <th>Price</th>
             <th>Desc</th>
+            <th>Time</th>
+            <th>Time Option 1</th>
+
           </tr>
           </thead>
           <tbody>
           {movies.map((movie, index) => {
-            const {id, name, price, imageURL, category, desc, info} = movie;
+            const {id, name, price, imageURL, category, desc, info, time, time1} = movie;
             return (
               <tr key={id}>
                 <td>
@@ -65,6 +68,10 @@ const ViewMovies = () => {
                 </td>
                 <td>{desc}</td>
                 <td>{info}</td>
+                <td>{time}</td>
+                <td>{time1}</td>
+
+
               </tr>
             )
           })}

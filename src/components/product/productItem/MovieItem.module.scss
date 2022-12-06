@@ -26,7 +26,6 @@
       }
       .hoverText {
         // font-size: 20px;
-        color:white;
         border: 2px solid orangered;
         background: rgba(0,0,0, 1);
         z-index: 99;
@@ -134,9 +133,19 @@
             font-weight: 500;
 
           }
+          span {
+            font-size: 1.6rem;
+            color: orangered;
+          }
       }
+      // .btn {
+      //   border: 2px solid white;
+      //   display: inline-block;
+      //   font-weight: 600;
+      // }
       button {
-        position: absolute;
+        // position: absolute;
+        color: black;
         bottom: 1rem;
         left: 1rem;
       }
