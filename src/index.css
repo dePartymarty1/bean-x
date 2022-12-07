@@ -159,6 +159,9 @@ h4 {
   color: #fff;
   background: orangered;
 }
+.--btn-block {
+  width: 100%;
+}
 
 .--btn-success {
   color: #fff;

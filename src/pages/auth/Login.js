@@ -83,7 +83,7 @@ const Login = () => {
             </form>
             <button className="--btn --btn-danger --btn-block" onClick={signInWithGoogle}><FaGoogle color="#fff"/>Login With Google</button>
             <span className={styles.register}>
-                <p>Don't have an account?</p>
+                <p>&nbsp; Don't have an account?</p>
                 <Link to="/register">Register</Link>
             </span>
         </div>

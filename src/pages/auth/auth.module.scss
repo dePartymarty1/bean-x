@@ -18,6 +18,9 @@
         color: var(--color-danger);
         text-align: center;
       }
+      p {
+        color: white;
+      }
       form {
         input[type="text"],
         input[type="email"],
@@ -41,6 +44,7 @@
         p {
           text-align: center;
           margin: 1rem;
+          color: white;
         }
       }
       .register {
