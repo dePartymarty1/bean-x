@@ -20,21 +20,5 @@ app.get("/", (req, res) => {
   res.send("Welcome to Mequon Theaters website.");
 });
 
-
-// // const PORT = process.env.PORT || 4242;
-// // app.listen(PORT, () => console.log(`Node server listening on port ${PORT}`));
-// // create an express app
-// const express = require("express")
-// const app = express()
-
-// // use the express-static middleware
-// app.use(express.static("public"))
-
-// // define the first route
-// app.get("/", function (req, res) {
-//   res.send("<h1>Hello World!</h1>")
-// })
-
-// start the server listening for requests
 const PORT = process.env.PORT || 4242;
 app.listen(PORT, () => console.log(`Node server listening on port ${PORT}`));
