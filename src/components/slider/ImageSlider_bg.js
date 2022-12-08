@@ -52,7 +52,7 @@ const ImageSlider_bg = ({ slides_bg }) => {
                     key={index}
                     >
                         {index === current1 && (
-                            <img src={slide_bg.img} alt="pictures" className='img' style={{width: "1132", height:"444px" }}/>
+                            <img src={slide_bg.img} alt="pictures" className='img' style={{width: "1000", height:"444px" }}/>
                         )}
                     </div>
                 )
